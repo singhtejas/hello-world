@@ -30,6 +30,7 @@ public class GitDemo {
             factorialNumber = factorialNumber * 10 + temp;
             num /= 10;
         }
+        
         return factorialNumber;
     }
     
@@ -46,5 +47,8 @@ public class GitDemo {
             newNumber = newNumber * i;
             reverseNum = newNumber;
         }
+        
+        return newNumber;
     }
+    
 }
